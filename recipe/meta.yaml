@@ -24,10 +24,10 @@ test:
 
 about:
   home: https://github.com/astrale-sharp/typstfmt
-  license: MIT
-  license_family: MIT
+  license: MIT OR Apache-2.0
   license_file:
-    - LICENSE.md
+    - LICENSE-APACHE
+    - LICENSE-MIT
     - THIRDPARTY_LICENSES.yaml
   summary: A formatter for typst.
 
