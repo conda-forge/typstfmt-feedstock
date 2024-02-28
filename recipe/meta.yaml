@@ -1,5 +1,5 @@
 {% set name = "typstfmt" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name | lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astrale-sharp/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 17db7ddb83a8e2e43b3b34f19dcc8cbd3585aea34e05a5689e6f5beda27ac523
+  sha256: 0c884ea06a8f1d04fa12ea582f11b3520e09c337fb42855b3b49175f1e4b8a57
 
 build:
   number: 0
@@ -24,10 +24,10 @@ test:
 
 about:
   home: https://github.com/astrale-sharp/typstfmt
-  license: MIT
-  license_family: MIT
+  license: MIT OR Apache-2.0
   license_file:
-    - LICENSE.md
+    - LICENSE-MIT
+    - LICENSE-APACHE
     - THIRDPARTY_LICENSES.yaml
   summary: A formatter for typst.
 
