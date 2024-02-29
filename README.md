@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/typstfmt-feedst
 
 Home: https://github.com/astrale-sharp/typstfmt
 
-Package license: MIT
+Package license: MIT OR Apache-2.0
 
 Summary: A formatter for typst.
 
