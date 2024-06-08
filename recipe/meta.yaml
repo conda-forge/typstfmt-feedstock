@@ -1,5 +1,5 @@
 {% set name = "typstfmt" %}
-{% set version = "0.2.9" %}
+{% set version = "0.2.10" %}
 
 package:
   name: {{ name | lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astrale-sharp/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: fa24ee1705ff5fec4db45e301d38439d0bd3d6d4ee04b280ba997b2f94ba16d9
+  sha256: 5a3f413a428b2590552c2d0ab0ab04c7a745e1cca128844b7b82ea49326d65c4
 
 build:
   number: 0
@@ -15,6 +15,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('rust') }}
     - cargo-bundle-licenses
 
